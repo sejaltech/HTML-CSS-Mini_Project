@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - Nomadic Matt's Travel Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="destinations.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-threads"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <form class="search-box">
+                <input type="text" placeholder="Search ...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fas fa-hiking"></i></div>
+                NOMADIC MATT
+            </a>
+            <nav>
+                <a href="about.html">ABOUT</a>
+                <div class="dropdown">
+                    <a href="blog.html">BLOG <i class="fas fa-chevron-down" style="font-size:10px;"></i></a>
+                    <div class="dropdown-menu">
+                        <h5>LATEST POSTS</h5>
+                        <a href="blog.html">THE 8 BEST AIRBNB EXPERIENCES IN TOKYO</a>
+                        <a href="blog.html">WHY YOUR AIRFARE IS SO EXPENSIVE</a>
+                        <h5>POPULAR POSTS</h5>
+                        <a href="blog.html">THE ULTIMATE GUIDE TO TRAVELING CHEAP</a>
+                        <a href="blog.html">TRAVEL IS A PRIVILEGE</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="index.html#roadmap">START HERE <i class="fas fa-chevron-down" style="font-size:10px;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#roadmap">GET INSPIRED</a>
+                        <a href="index.html#roadmap">HOW TO SAVE FOR A TRIP</a>
+                        <a href="index.html#roadmap">HOW TO PLAN YOUR TRIP</a>
+                        <a href="index.html#roadmap">FIND CHEAP AIRFARE</a>
+                        <a href="index.html#roadmap">GET ACCOMMODATION</a>
+                    </div>
+                </div>
+                <a href="destinations.html">DESTINATIONS</a>
+                <a href="books.html">BOOKS</a>
+                <a href="courses.html">COURSES</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="dest-hero">
+        <div class="container">
+            <h1>DESTINATION GUIDES</h1>
+            <p>In-depth travel guides for 100+ countries with budgets, tips, and itineraries</p>
+            <form class="dest-search">
+                <input type="text" placeholder="Search destinations...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 50px;">Browse by Region</h2>
+            <div class="region-cards">
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600" alt="Europe">
+                    <div class="region-overlay">
+                        <h3>Europe</h3>
+                        <span>45 guides</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600" alt="Asia">
+                    <div class="region-overlay">
+                        <h3>Asia</h3>
+                        <span>32 guides</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600" alt="North America">
+                    <div class="region-overlay">
+                        <h3>North America</h3>
+                        <span>18 guides</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=600" alt="South America">
+                    <div class="region-overlay">
+                        <h3>South America</h3>
+                        <span>14 guides</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=600" alt="Africa">
+                    <div class="region-overlay">
+                        <h3>Africa</h3>
+                        <span>12 guides</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=600" alt="Oceania">
+                    <div class="region-overlay">
+                        <h3>Oceania</h3>
+                        <span>8 guides</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="budget-table" style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <h3>Daily Budget Comparison</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Destination</th>
+                        <th>Budget</th>
+                        <th>Mid-Range</th>
+                        <th>Luxury</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Thailand</td>
+                        <td class="budget-low">$30/day</td>
+                        <td class="budget-mid">$75/day</td>
+                        <td class="budget-high">$200+/day</td>
+                    </tr>
+                    <tr>
+                        <td>Japan</td>
+                        <td class="budget-low">$75/day</td>
+                        <td class="budget-mid">$150/day</td>
+                        <td class="budget-high">$400+/day</td>
+                    </tr>
+                    <tr>
+                        <td>France</td>
+                        <td class="budget-low">$80/day</td>
+                        <td class="budget-mid">$175/day</td>
+                        <td class="budget-high">$450+/day</td>
+                    </tr>
+                    <tr>
+                        <td>Mexico</td>
+                        <td class="budget-low">$40/day</td>
+                        <td class="budget-mid">$100/day</td>
+                        <td class="budget-high">$250+/day</td>
+                    </tr>
+                    <tr>
+                        <td>Vietnam</td>
+                        <td class="budget-low">$25/day</td>
+                        <td class="budget-mid">$60/day</td>
+                        <td class="budget-high">$150+/day</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="popular-guides">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 50px;">Popular Guides</h2>
+            <div class="popular-guides-grid">
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=400" alt="Paris">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Paris, France</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400" alt="Tokyo">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Tokyo, Japan</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=400" alt="Bangkok">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Bangkok, Thailand</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=400" alt="Barcelona">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Barcelona, Spain</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=400" alt="Kyoto">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Kyoto, Japan</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=400" alt="Amalfi">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Amalfi Coast, Italy</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=400" alt="Lisbon">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Lisbon, Portugal</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+                <a href="#" class="popular-guide-card">
+                    <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=400" alt="Marrakech">
+                    <div class="popular-guide-card-overlay">
+                        <h4>Marrakech, Morocco</h4>
+                        <span>View Guide →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 50px;">Essential Travel Tips</h2>
+            <div class="courses-grid-new">
+                <div class="course-card-new" style="text-align: center;">
+                    <div class="course-content">
+                        <i class="fas fa-plane" style="font-size: 3rem; color: #6abf4b; margin-bottom: 20px;"></i>
+                        <h3>Finding Cheap Flights</h3>
+                        <p>Use Google Flights, set price alerts, and be flexible with dates. Tuesday/Wednesday departures are often cheapest.</p>
+                        <a href="blog.html" class="btn btn-outline btn-sm">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card-new" style="text-align: center;">
+                    <div class="course-content">
+                        <i class="fas fa-home" style="font-size: 3rem; color: #3498db; margin-bottom: 20px;"></i>
+                        <h3>Accommodation Hacks</h3>
+                        <p>Consider hostels, housesitting, or Couchsurfing. Book directly with hotels for potential discounts and perks.</p>
+                        <a href="blog.html" class="btn btn-outline btn-sm">Learn More</a>
+                    </div>
+                </div>
+                <div class="course-card-new" style="text-align: center;">
+                    <div class="course-content">
+                        <i class="fas fa-shield-alt" style="font-size: 3rem; color: #e74c3c; margin-bottom: 20px;"></i>
+                        <h3>Travel Insurance</h3>
+                        <p>Never travel without it! World Nomads and SafetyWing offer great coverage for budget travelers.</p>
+                        <a href="blog.html" class="btn btn-outline btn-sm">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 20px;">Helpful Travel Resources</h2>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto 50px; color: #666;">My favorite tools and websites to help you plan the perfect trip.</p>
+            <div class="promo-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px;">
+                <div class="promo-card" style="background: #fff; border: 1px solid #eee; padding: 30px; border-radius: 15px;">
+                    <i class="fas fa-search" style="font-size: 2.5rem; color: #4285f4; margin-bottom: 15px;"></i>
+                    <div>
+                        <h4 style="margin-bottom: 10px;">Google Flights</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Best tool for comparing flight prices and finding deals.</p>
+                    </div>
+                </div>
+                <div class="promo-card" style="background: #fff; border: 1px solid #eee; padding: 30px; border-radius: 15px;">
+                    <i class="fas fa-bed" style="font-size: 2.5rem; color: #003580; margin-bottom: 15px;"></i>
+                    <div>
+                        <h4 style="margin-bottom: 10px;">Booking.com</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Great selection of hotels, hostels, and vacation rentals.</p>
+                    </div>
+                </div>
+                <div class="promo-card" style="background: #fff; border: 1px solid #eee; padding: 30px; border-radius: 15px;">
+                    <i class="fas fa-home" style="font-size: 2.5rem; color: #ff5a5f; margin-bottom: 15px;"></i>
+                    <div>
+                        <h4 style="margin-bottom: 10px;">Hostelworld</h4>
+                        <p style="color: #666; font-size: 0.9rem;">The best platform for finding budget-friendly hostels worldwide.</p>
+                    </div>
+                </div>
+                <div class="promo-card" style="background: #fff; border: 1px solid #eee; padding: 30px; border-radius: 15px;">
+                    <i class="fas fa-car" style="font-size: 2.5rem; color: #f5a623; margin-bottom: 15px;"></i>
+                    <div>
+                        <h4 style="margin-bottom: 10px;">Rentalcars.com</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Compare car rental prices from all major companies in one place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <i class="fas fa-compass"></i>
+                <div>
+                    <h3>Get Destination Guides Delivered Free</h3>
+                    <p>Subscribe for new destination guides, budget breakdowns, and exclusive travel tips.</p>
+                </div>
+                <form class="newsletter-form-inline">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>ABOUT</h4>
+                    <ul>
+                        <li><a href="about.html">About Matt</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>START HERE</h4>
+                    <ul>
+                        <li><a href="index.html#roadmap">How to Travel Cheap</a></li>
+                        <li><a href="index.html#roadmap">Find Cheap Flights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>DESTINATIONS</h4>
+                    <ul>
+                        <li><a href="destinations.html">Europe</a></li>
+                        <li><a href="destinations.html">Asia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="destinations.html">Travel Guides</a></li>
+                        <li><a href="books.html">Books</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>FOLLOW ME</h4>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nomadic Matt's Travel Site, LLC. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

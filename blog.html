@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Nomadic Matt's Travel Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div class="top-bar">
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-threads"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            <form class="search-box">
+                <input type="text" placeholder="Search ...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon"><i class="fas fa-hiking"></i></div>
+                NOMADIC MATT
+            </a>
+            <nav>
+                <a href="about.html">ABOUT</a>
+                <div class="dropdown">
+                    <a href="blog.html">BLOG <i class="fas fa-chevron-down" style="font-size:10px;"></i></a>
+                    <div class="dropdown-menu">
+                        <h5>LATEST POSTS</h5>
+                        <a href="blog.html">THE 8 BEST AIRBNB EXPERIENCES IN TOKYO</a>
+                        <a href="blog.html">WHY YOUR AIRFARE IS SO EXPENSIVE</a>
+                        <h5>POPULAR POSTS</h5>
+                        <a href="blog.html">THE ULTIMATE GUIDE TO TRAVELING CHEAP</a>
+                        <a href="blog.html">TRAVEL IS A PRIVILEGE</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="index.html#roadmap">START HERE <i class="fas fa-chevron-down" style="font-size:10px;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html#roadmap">GET INSPIRED</a>
+                        <a href="index.html#roadmap">HOW TO SAVE FOR A TRIP</a>
+                        <a href="index.html#roadmap">HOW TO PLAN YOUR TRIP</a>
+                        <a href="index.html#roadmap">FIND CHEAP AIRFARE</a>
+                        <a href="index.html#roadmap">GET ACCOMMODATION</a>
+                    </div>
+                </div>
+                <a href="destinations.html">DESTINATIONS</a>
+                <a href="books.html">BOOKS</a>
+                <a href="courses.html">COURSES</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="blog-hero">
+        <div class="container">
+            <div class="blog-hero-grid">
+                <a href="#" class="blog-hero-main">
+                    <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800" alt="Tokyo">
+                    <div class="blog-hero-overlay">
+                        <span class="post-category">FEATURED</span>
+                        <h2>The 8 Best Airbnb Experiences in Tokyo</h2>
+                        <p>Discover unique local experiences that will transform your Japan trip</p>
+                    </div>
+                </a>
+                <div class="blog-hero-side">
+                    <a href="#" class="blog-hero-small">
+                        <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400" alt="Flight">
+                        <div class="blog-hero-overlay">
+                            <span class="post-category">TIPS</span>
+                            <h3>Why Your Airfare Is So Expensive</h3>
+                        </div>
+                    </a>
+                    <a href="#" class="blog-hero-small">
+                        <img src="https://images.unsplash.com/photo-1502301103665-0b95cc738daf?w=400" alt="Backpacking">
+                        <div class="blog-hero-overlay">
+                            <span class="post-category">GUIDE</span>
+                            <h3>The Ultimate Guide to Traveling Cheap</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active">All Posts</button>
+                <button class="category-tab">Budget Tips</button>
+                <button class="category-tab">Destinations</button>
+                <button class="category-tab">Travel Hacking</button>
+                <button class="category-tab">Gear</button>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 60px 0;">
+        <div class="container">
+            <div class="blog-masonry">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=600" alt="Paris">
+                    <div class="blog-card-content">
+                        <span class="post-category">EUROPE</span>
+                        <h3><a href="#">How to Visit Paris on a Budget</a></h3>
+                        <p>Everything you need to know about exploring the City of Light without emptying your wallet.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Jan 15, 2024</span>
+                            <span><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=600" alt="Thailand">
+                    <div class="blog-card-content">
+                        <span class="post-category">ASIA</span>
+                        <h3><a href="#">Thailand: The Complete Budget Guide</a></h3>
+                        <p>From Bangkok to the islands, here's how to travel Thailand for $30/day.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Jan 12, 2024</span>
+                            <span><i class="far fa-clock"></i> 12 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600" alt="USA">
+                    <div class="blog-card-content">
+                        <span class="post-category">USA</span>
+                        <h3><a href="#">Road Tripping the American West</a></h3>
+                        <p>An epic 2-week itinerary through California, Arizona, Utah, and Nevada.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Jan 10, 2024</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=600" alt="Japan">
+                    <div class="blog-card-content">
+                        <span class="post-category">ASIA</span>
+                        <h3><a href="#">Japan Rail Pass: Is It Worth It?</a></h3>
+                        <p>Breaking down the math to help you decide if the JR Pass makes sense for your trip.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Jan 8, 2024</span>
+                            <span><i class="far fa-clock"></i> 6 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600" alt="Mountains">
+                    <div class="blog-card-content">
+                        <span class="post-category">TIPS</span>
+                        <h3><a href="#">How I Find Cheap Flights Every Time</a></h3>
+                        <p>My exact process for scoring deals, including the tools and timing that work.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Jan 5, 2024</span>
+                            <span><i class="far fa-clock"></i> 7 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1528127269322-539801943592?w=600" alt="Vietnam">
+                    <div class="blog-card-content">
+                        <span class="post-category">ASIA</span>
+                        <h3><a href="#">Vietnam on $25 a Day</a></h3>
+                        <p>One of the most affordable countries in the world gets even cheaper with these tips.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Jan 3, 2024</span>
+                            <span><i class="far fa-clock"></i> 9 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1504512485720-7d83a16ee930?w=600" alt="Bali">
+                    <div class="blog-card-content">
+                        <span class="post-category">INDONESIA</span>
+                        <h3><a href="#">Bali Beyond the Tourist Crowds</a></h3>
+                        <p>Discover hidden beaches, authentic villages, and local experiences away from mass tourism.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 28, 2023</span>
+                            <span><i class="far fa-clock"></i> 11 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=600" alt="Greece">
+                    <div class="blog-card-content">
+                        <span class="post-category">EUROPE</span>
+                        <h3><a href="#">Island Hopping in Greece on a Budget</a></h3>
+                        <p>How to explore Santorini, Mykonos, and lesser-known islands without breaking the bank.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 20, 2023</span>
+                            <span><i class="far fa-clock"></i> 14 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=600" alt="Morocco">
+                    <div class="blog-card-content">
+                        <span class="post-category">AFRICA</span>
+                        <h3><a href="#">10 Days in Morocco: Complete Itinerary</a></h3>
+                        <p>From Marrakech to the Sahara Desert—the ultimate Morocco travel guide.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 15, 2023</span>
+                            <span><i class="far fa-clock"></i> 15 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=600" alt="New Zealand">
+                    <div class="blog-card-content">
+                        <span class="post-category">OCEANIA</span>
+                        <h3><a href="#">New Zealand: Campervan Adventure Guide</a></h3>
+                        <p>Everything you need for the ultimate road trip through Middle Earth.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 10, 2023</span>
+                            <span><i class="far fa-clock"></i> 13 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?w=600" alt="Canada">
+                    <div class="blog-card-content">
+                        <span class="post-category">NORTH AMERICA</span>
+                        <h3><a href="#">Backpacking Through the Canadian Rockies</a></h3>
+                        <p>Hiking, wildlife, and stunning scenery in Banff and Jasper National Parks.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Dec 5, 2023</span>
+                            <span><i class="far fa-clock"></i> 10 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1519677100203-a0e668c92439?w=600" alt="Portugal">
+                    <div class="blog-card-content">
+                        <span class="post-category">EUROPE</span>
+                        <h3><a href="#">Why Lisbon Is Europe's Best Value City</a></h3>
+                        <p>Great food, stunning architecture, and affordable prices make Portugal a must-visit.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Nov 30, 2023</span>
+                            <span><i class="far fa-clock"></i> 8 min read</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600" alt="Nepal">
+                    <div class="blog-card-content">
+                        <span class="post-category">ASIA</span>
+                        <h3><a href="#">Trekking in Nepal: A Complete Guide</a></h3>
+                        <p>From Everest Base Camp to Annapurna Circuit—choosing the right trek for you.</p>
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> Nov 25, 2023</span>
+                            <span><i class="far fa-clock"></i> 16 min read</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div style="text-align: center; margin-top: 50px;">
+                <a href="#" class="btn btn-outline">Load More Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <i class="fas fa-envelope-open-text"></i>
+                <div>
+                    <h3>Never Miss a Travel Tip</h3>
+                    <p>Join 500,000+ readers getting weekly travel hacks, destination guides, and money-saving tips.</p>
+                </div>
+                <form class="newsletter-form-inline">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 80px 0; background: #f8f9fa;">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 50px;">Browse by Category</h2>
+            <div class="region-cards">
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600" alt="Budget Tips">
+                    <div class="region-overlay">
+                        <h3><i class="fas fa-piggy-bank"></i> Budget Tips</h3>
+                        <span>45 articles</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600" alt="Road Trips">
+                    <div class="region-overlay">
+                        <h3><i class="fas fa-car"></i> Road Trips</h3>
+                        <span>28 articles</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=600" alt="Solo Travel">
+                    <div class="region-overlay">
+                        <h3><i class="fas fa-user"></i> Solo Travel</h3>
+                        <span>32 articles</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1488085061387-422e29b40080?w=600" alt="Adventure">
+                    <div class="region-overlay">
+                        <h3><i class="fas fa-hiking"></i> Adventure</h3>
+                        <span>56 articles</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=600" alt="Accommodation">
+                    <div class="region-overlay">
+                        <h3><i class="fas fa-bed"></i> Accommodation</h3>
+                        <span>24 articles</span>
+                    </div>
+                </a>
+                <a href="#" class="region-card">
+                    <img src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?w=600" alt="Digital Nomad">
+                    <div class="region-overlay">
+                        <h3><i class="fas fa-laptop"></i> Digital Nomad</h3>
+                        <span>18 articles</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h4>ABOUT</h4>
+                    <ul>
+                        <li><a href="about.html">About Matt</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>START HERE</h4>
+                    <ul>
+                        <li><a href="index.html#roadmap">How to Travel Cheap</a></li>
+                        <li><a href="index.html#roadmap">Find Cheap Flights</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>DESTINATIONS</h4>
+                    <ul>
+                        <li><a href="destinations.html">Europe</a></li>
+                        <li><a href="destinations.html">Asia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>RESOURCES</h4>
+                    <ul>
+                        <li><a href="destinations.html">Travel Guides</a></li>
+                        <li><a href="books.html">Books</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>FOLLOW ME</h4>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nomadic Matt's Travel Site, LLC. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

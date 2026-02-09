@@ -1,0 +1,273 @@
+.book-showcase { 
+    background: linear-gradient(135deg, #0f0f1a, #1a1a2e); 
+    padding: 70px 0; 
+}
+.book-showcase-grid { 
+    display: grid; 
+    grid-template-columns: 280px 1fr; 
+    gap: 60px; 
+    align-items: center; 
+    color: #fff; 
+}
+.book-3d { 
+    perspective: 1000px; 
+    position: relative; 
+}
+.book-3d img { 
+    width: 100%; 
+    border-radius: 8px; 
+    box-shadow: 25px 25px 50px rgba(0,0,0,0.5), -5px -5px 25px rgba(106,191,75,0.2); 
+    transform: rotateY(-12deg) rotateX(5deg); 
+    transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.6s ease;
+}
+.book-3d:hover img { 
+    transform: rotateY(0) rotateX(0);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.4), 0 0 30px rgba(106,191,75,0.3);
+}
+.book-3d .book-price { 
+    position: absolute; 
+    top: -15px; 
+    right: -15px; 
+    background: #6abf4b; 
+    color: #fff; 
+    padding: 12px 18px; 
+    border-radius: 50%; 
+    font-weight: 700; 
+    font-size: 14px; 
+    box-shadow: 0 8px 20px rgba(106,191,75,0.4);
+    animation: pulse 2s ease-in-out infinite;
+}
+.book-showcase-content h1 { 
+    font-size: 38px; 
+    font-weight: 400; 
+    margin-bottom: 16px; 
+    line-height: 1.2;
+    animation: fadeInUp 0.6s ease forwards;
+}
+.book-showcase-content .book-subtitle { 
+    color: #6abf4b; 
+    font-size: 13px; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 14px; 
+    display: block; 
+}
+.book-showcase-content p, 
+.book-showcase-content .hero-sub { 
+    color: #b8c0d0; 
+    font-size: 16px; 
+    line-height: 1.75; 
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 24px; 
+}
+.book-features { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 16px; 
+    margin-bottom: 35px; 
+}
+.book-features li { 
+    display: flex; 
+    gap: 12px; 
+    align-items: center; 
+    color: #d0d6e4; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.book-features li:hover {
+    transform: translateX(8px);
+    color: #fff;
+}
+.book-features i { 
+    color: #6abf4b; 
+    font-size: 18px;
+    background: rgba(106,191,75,0.15);
+    padding: 8px;
+    border-radius: 50%;
+}
+.book-price-tag { 
+    display: inline-flex; 
+    align-items: center; 
+    gap: 16px; 
+    background: rgba(106,191,75,0.15); 
+    padding: 16px 28px; 
+    border-radius: 12px; 
+    margin-bottom: 28px;
+    border: 1px solid rgba(106,191,75,0.3);
+    transition: all 0.4s ease;
+}
+.book-price-tag:hover {
+    background: rgba(106,191,75,0.25);
+    transform: translateY(-3px);
+}
+.book-price-tag .price { 
+    font-size: 32px; 
+    font-weight: 700; 
+    color: #6abf4b; 
+}
+.book-price-tag .original { 
+    text-decoration: line-through; 
+    color: #888; 
+    font-size: 18px; 
+}
+.books-more { 
+    padding: 80px 0; 
+}
+.books-grid-new { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 28px; 
+}
+.book-card-new { 
+    background: #fff; 
+    border-radius: 14px; 
+    overflow: hidden; 
+    box-shadow: 0 12px 35px rgba(0,0,0,0.06); 
+    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    text-align: center; 
+    padding: 25px; 
+}
+.book-card-new:hover { 
+    transform: translateY(-10px); 
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15); 
+}
+.book-card-new img { 
+    width: 120px; 
+    height: 160px; 
+    object-fit: cover; 
+    margin: 0 auto 18px; 
+    border-radius: 6px; 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: all 0.4s ease;
+}
+.book-card-new:hover img {
+    transform: translateY(-8px) scale(1.05);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+.book-card-new h3 { 
+    font-size: 18px; 
+    margin-bottom: 8px; 
+    color: #111; 
+}
+.book-card-new p { 
+    color: #666; 
+    font-size: 13px; 
+    font-family: 'Open Sans', sans-serif; 
+    line-height: 1.65; 
+    margin-bottom: 14px; 
+}
+.book-grid { 
+    display: grid; 
+    grid-template-columns: 280px 1fr; 
+    gap: 70px; 
+    align-items: center; 
+    max-width: 950px; 
+    margin: 0 auto; 
+}
+.book-grid img { 
+    box-shadow: 0 15px 50px rgba(0,0,0,0.2); 
+    transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+    animation: float 4s ease-in-out infinite;
+}
+.book-grid img:hover { 
+    transform: scale(1.05); 
+    box-shadow: 0 25px 60px rgba(0,0,0,0.25); 
+}
+.book-content span { 
+    color: #6abf4b; 
+    font-size: 12px; 
+    letter-spacing: 3px; 
+    font-weight: 700; 
+    font-family: 'Open Sans', sans-serif; 
+    text-transform: uppercase; 
+}
+.book-content h3 { 
+    font-size: 38px; 
+    margin: 18px 0; 
+    font-weight: 400; 
+    color: #111; 
+}
+.book-content p { 
+    color: #555; 
+    margin-bottom: 28px; 
+    font-size: 16px; 
+    line-height: 1.9; 
+    font-family: 'Open Sans', sans-serif; 
+}
+.book-promo { 
+    background: #f8f8f8; 
+}
+.book-promo-content { 
+    display: flex; 
+    gap: 70px; 
+    align-items: center; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+.book-promo-content img {
+    animation: float 4s ease-in-out infinite;
+}
+.book-info { 
+    max-width: 550px; 
+}
+.book-info h2 { 
+    font-size: 38px; 
+    margin-bottom: 18px; 
+    font-weight: 400; 
+    color: #111; 
+}
+.book-featured { 
+    display: grid; 
+    grid-template-columns: 300px 1fr; 
+    gap: 50px; 
+    align-items: center; 
+}
+.book-featured img { 
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: all 0.4s ease;
+}
+.book-featured img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+}
+.books-grid { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 40px; 
+    margin-top: 50px; 
+}
+.book-card { 
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.book-card:hover {
+    transform: translateY(-5px);
+}
+.book-card img { 
+    height: 250px; 
+    margin: 0 auto 20px; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+}
+.book-card:hover img {
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+.hero-badge { 
+    display: inline-flex; 
+    align-items: center; 
+    gap: 8px; 
+    background: rgba(106,191,75,0.15); 
+    color: #6abf4b; 
+    padding: 8px 16px; 
+    border-radius: 25px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 12px; 
+    font-weight: 600; 
+    margin-bottom: 16px;
+    animation: fadeInUp 0.5s ease forwards;
+}
+.hero-badge i { 
+    font-size: 14px; 
+}
