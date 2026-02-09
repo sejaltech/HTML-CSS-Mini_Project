@@ -1,34 +1,40 @@
-# HTML-CSS-Mini_Project
-
-Travel Blog Website
-
+🌍 Travel Blog Website
 HTML & CSS Mini Project
-
 📌 Project Overview
 
-This repository contains a Travel Blog Website built using HTML and CSS as part of an academic mini project.
-The website includes multiple pages such as Home, About, Blog, Books, Contact, Courses, and Destinations that collectively provide a travel information platform.
+This repository contains a Travel Blog Website developed using HTML5 and CSS3 as part of an academic mini project. The website is designed as a multi-page platform that shares travel information, stories, and resources in an organized and visually appealing way.
 
-This project focuses on layout design, navigation structure, and responsive styling using HTML5 and CSS3.
+It includes several pages such as Home, About, Blog, Books, Contact, Courses, and Destinations, all connected through a clear navigation structure.
+
+The project emphasizes clean layout design, structured content, and responsive styling using modern web development practices.
 
 🎯 Objective
 
-The main objective of this project is to demonstrate practical skills in web development by creating a multi-page website using semantic HTML and organized CSS.
-This project also helps in understanding how to structure a website and style different components for better user experience.
+The primary objective of this project is to demonstrate practical front-end web development skills by building a structured multi-page website using semantic HTML and well-organized CSS.
+
+This project also helps in:
+
+Understanding website layout and navigation
+
+Applying semantic HTML5 elements
+
+Styling components using CSS3
+
+Improving user experience through design
 
 🧑‍💻 Technologies Used
 
-The website was developed with the following technologies:
+This website was built using:
 
-HTML5 – For webpage structure and content
+HTML5 – For webpage structure and semantic content
 
 CSS3 – For styling, layouts, and responsive design
 
-GitHub – For version control and deployment
+GitHub – For version control and project hosting
 
 📂 Project Structure
 
-The repository includes the following files and folders:
+The repository contains:
 
 index.html – Home page
 
@@ -44,51 +50,56 @@ courses.html – Courses page
 
 destinations.html – Destinations page
 
-Corresponding CSS files for each page
+Corresponding CSS files for styling
 
-Image files used in the website
+Image assets used across the website
 
 👤 My Contribution
 
-I was responsible for designing and developing the following parts of the website:
+I contributed to the design and development of the following sections:
 
 About Page (about.html, about.css)
 
 Courses Page (courses.html, courses.css)
 
-These pages are fully coded with structured HTML and styled CSS to match the overall website theme.
+These pages were fully structured using semantic HTML and styled with CSS to match the overall website theme and layout.
 
 🚀 Deployment
 
-This project is hosted using GitHub Pages.
-Once the code is pushed to the repository and Pages is enabled from settings, a live link is generated that can be shared for viewing the working website online.
+This project can be hosted using GitHub Pages.
+After pushing the code to the repository and enabling GitHub Pages in the repository settings, a live link can be generated to share and view the website online.
 
 📝 How to Run the Project Locally
 
 To run this project on your computer:
 
-Clone the repository:
+Clone the repository
 
 git clone https://github.com/sejaltech/HTML-CSS-Mini_Project.git
 
 
-Open the folder in a code editor (VS Code recommended).
+Open the folder in a code editor (VS Code recommended)
 
-Open any .html file in a web browser to view the page locally.
+Open any .html file in a web browser
+
+No additional setup is required.
 
 📄 Declaration
 
-I hereby declare that this mini project has been completed by me as part of a group activity.
-The work submitted is original and created using HTML and CSS for academic evaluation.
+I hereby declare that this mini project was completed as part of a group academic activity. The submitted work is original and created using HTML and CSS for evaluation purposes.
 
 🔮 Future Scope
 
-Improvements can be made in the future such as:
+Future improvements may include:
 
-Adding JavaScript to enhance interactivity
+Adding JavaScript for interactivity
 
-Making the pages fully responsive for mobile devices
+Making the website fully responsive for mobile devices
 
-Adding a contact form with backend support
+Creating a functional contact form
 
-Integrating course registration and login features
+Integrating login and course registration features
+
+Enhancing UI/UX with animations and transitions
+
+✨ Thank you for viewing this project!
