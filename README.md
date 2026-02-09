@@ -1,105 +1,88 @@
-🌍 Travel Blog Website
-HTML & CSS Mini Project
-📌 Project Overview
+# HTML & CSS Mini Project
 
-This repository contains a Travel Blog Website developed using HTML5 and CSS3 as part of an academic mini project. The website is designed as a multi-page platform that shares travel information, stories, and resources in an organized and visually appealing way.
+This repository contains my HTML & CSS Mini Project submitted as part of the B.Tech curriculum.  
+The project focuses on creating a structured, visually appealing, and responsive website using only HTML and CSS concepts learned in class.
 
-It includes several pages such as Home, About, Blog, Books, Contact, Courses, and Destinations, all connected through a clear navigation structure.
+---
 
-The project emphasizes clean layout design, structured content, and responsive styling using modern web development practices.
+## Project Objective
 
-🎯 Objective
+The main objective of this mini project is:
+- To understand the basic structure of a website using HTML
+- To apply CSS for styling and layout
+- To practice clean code, folder organization, and project documentation
+- To gain hands-on experience with GitHub and GitHub Pages deployment
 
-The primary objective of this project is to demonstrate practical front-end web development skills by building a structured multi-page website using semantic HTML and well-organized CSS.
+---
 
-This project also helps in:
+## Project Description
 
-Understanding website layout and navigation
+This project is a static website designed using HTML for content structure and CSS for styling.  
+It includes different sections such as headers, content areas, images, and styled elements to improve user experience.
 
-Applying semantic HTML5 elements
+The website demonstrates:
+- Proper use of HTML tags
+- CSS styling techniques
+- Layout alignment and design consistency
+- Basic responsiveness for different screen sizes
 
-Styling components using CSS3
+---
 
-Improving user experience through design
+## Technologies Used
 
-🧑‍💻 Technologies Used
+- HTML5  
+- CSS3  
 
-This website was built using:
+No external libraries or frameworks have been used.  
+The project is built completely using core web technologies.
 
-HTML5 – For webpage structure and semantic content
+---
 
-CSS3 – For styling, layouts, and responsive design
+## Folder Structure
 
-GitHub – For version control and project hosting
+The project follows a simple and clean folder structure:
 
-📂 Project Structure
+- index.html → Main HTML file  
+- style.css → CSS file for styling  
+- images/ → Folder containing images used in the project  
+- README.md → Project documentation  
 
-The repository contains:
+This structure helps in easy understanding and maintenance of the project.
 
-index.html – Home page
+---
 
-about.html – About page
+## How to Run the Project Locally
 
-blog.html – Blog page
-
-books.html – Books page
-
-contact.html – Contact page
-
-courses.html – Courses page
-
-destinations.html – Destinations page
-
-Corresponding CSS files for styling
-
-Image assets used across the website
-
-👤 My Contribution
-
-I contributed to the design and development of the following sections:
-
-About Page (about.html, about.css)
-
-Courses Page (courses.html, courses.css)
-
-These pages were fully structured using semantic HTML and styled with CSS to match the overall website theme and layout.
-
-🚀 Deployment
-
-This project can be hosted using GitHub Pages.
-After pushing the code to the repository and enabling GitHub Pages in the repository settings, a live link can be generated to share and view the website online.
-
-📝 How to Run the Project Locally
-
-To run this project on your computer:
-
-Clone the repository
-
-git clone https://github.com/sejaltech/HTML-CSS-Mini_Project.git
-
-
-Open the folder in a code editor (VS Code recommended)
-
-Open any .html file in a web browser
+1. Clone or download the repository from GitHub.
+2. Open the project folder.
+3. Double-click on `index.html` or open it using any web browser.
+4. The website will load and display the project.
 
 No additional setup is required.
 
-📄 Declaration
+---
 
-I hereby declare that this mini project was completed as part of a group academic activity. The submitted work is original and created using HTML and CSS for evaluation purposes.
+## GitHub Repository Link
 
-🔮 Future Scope
+https://github.com/sejaltech/HTML-CSS-Mini_Project
 
-Future improvements may include:
+---
 
-Adding JavaScript for interactivity
+## Live Project Link (GitHub Pages)
 
-Making the website fully responsive for mobile devices
+The project is deployed using GitHub Pages.  
+Live URL:
 
-Creating a functional contact form
+(https://sejaltech.github.io/HTML-CSS-Mini_Project/)
+---
 
-Integrating login and course registration features
+## Conclusion
 
-Enhancing UI/UX with animations and transitions
+This mini project helped me improve my understanding of HTML and CSS fundamentals and gave me practical exposure to web development and version control using GitHub.
 
-✨ Thank you for viewing this project!
+---
+
+## Author
+
+Sejal  Singh
+B.Tech Student
